@@ -1,0 +1,98 @@
+.basketMenu {
+	width: 40%;
+	height: 600px;
+	background: black;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	transition: 2s;
+	overflow: hidden;
+	overflow: auto;
+	border-radius: 20px 0 0 20px;
+}
+.btns {
+	width: 90px;
+	height: 30px;
+	position: fixed;
+	left: 400px;
+	margin-left: 10px;
+	border-radius: 15px;
+	border: 2px solid rgb(44, 131, 44);
+	font-size: 16px;
+	transition: 0.5s;
+}
+.btns:hover {
+	background: rgb(38, 162, 38);
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+	letter-spacing: 3px;
+}
+.activeBasket {
+	transition: 0.8s;
+	right: 0;
+}
+.itemimg {
+	width: 150px;
+	height: 150px;
+}
+.itemtext1 {
+	color: white;
+	margin-bottom: 5px;
+}
+.itemtext2 {
+	color: white;
+}
+.flexitemProd {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+.flexImagesprod {
+	display: flex;
+}
+.flextextItem {
+	margin-top: 10px;
+	width: 162px;
+}
+.pricetextItem {
+	color: white;
+	margin-top: 20px;
+}
+.productnumber {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 40px;
+}
+.btnsMinuse {
+	width: 20px;
+	height: 20px;
+
+}
+.btnsPluse {
+	width: 20px;
+	height: 20px;
+	
+}
+.btnsItemDelete {
+	width: 50px;
+	height: 30px;
+}
+.flexbtnsitem {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+.flexnumberprod {
+	display: flex;
+}
+.imgdivs {
+	width: 150px;
+	height: 150px;
+	img {
+		width: 100%;
+	}
+}
